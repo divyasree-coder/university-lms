@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>University LMS Dashboard</title>
+  <style>
+    body {
+      margin: 0; 
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+    }
+    header {
+      background: linear-gradient(90deg, #2c3e50, #34495e);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    nav {
+      background: #1abc9c;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #2c3e50;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 30px;
+    }
+    .card {
+      background: white;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      padding: 25px;
+      margin: 15px;
+      width: 220px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin: 10px 0;
+      color: #2c3e50;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🎓 University LMS Dashboard
+  </header>
+  <nav>
+    <a href="#">Courses</a>
+    <a href="#">Assignments</a>
+    <a href="#">Video Lectures</a>
+    <a href="#">Faculty</a>
+    <a href="#">Profile</a>
+  </nav>
+
+  <div class="container">
+    <div class="card">
+      <h3>📘 Courses</h3>
+      <p>Access enrolled subjects and study materials.</p>
+    </div>
+    <div class="card">
+      <h3>📝 Assignments</h3>
+      <p>Submit and track your assignments online.</p>
+    </div>
+    <div class="card">
+      <h3>🎥 Video Lectures</h3>
+      <p>Watch recorded classes and live sessions.</p>
+    </div>
+    <div class="card">
+      <h3>👩‍🏫 Faculty</h3>
+      <p>Connect with professors and mentors.</p>
+    </div>
+    <div class="card">
+      <h3>📊 Progress</h3>
+      <p>View grades, results, and analytics.</p>
+    </div>
+  </div>
+
+  <footer>
+    ©️ 2025 University LMS | Powered by AWS EC2
+  </footer>
+</body>
+</html>
